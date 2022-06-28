@@ -1,2 +1,2 @@
 # python-crashcourse
-This file consist of complete python  crash course with examples
+This file consists of complete python  crash course with examples
