@@ -3,15 +3,6 @@
 
 # # If else statments
 
-# In[ ]:
-
-
-
-
-
-# In[2]:
-
-
 requested_toppings = ['mushrooms', 'extra cheese']
 if 'mushrooms' in requested_toppings:
  print("Adding mushrooms.")
@@ -22,20 +13,12 @@ elif 'extra cheese' in requested_toppings:
 
 print("\nFinished making your pizza!")
 
-
-# In[2]:
-
-
 favorite_languages = {
  'jen': 'python',
  'sarah': 'c',
  'edward': 'ruby',
  'phil': 'python',
  }
-
-
-# In[5]:
-
 
 friends = ['phil', 'sarah']
 for name in favorite_languages.keys():
@@ -45,29 +28,15 @@ for name in favorite_languages.keys():
 
 
 # # A List of Dictionaries
-
-# In[3]:
-
-
 alien_0 = {'color': 'green', 'points': 5}
 alien_1 = {'color': 'yellow', 'points': 10}
 alien_2 = {'color': 'red', 'points': 15}
 
 
-# In[4]:
-
 
 alien_list=[alien_0,alien_1,alien_2]
-
-
-# In[5]:
-
-
 for alien_lists in alien_list:
     print(alien_lists)
-
-
-# In[9]:
 
 
 aliens=[]
@@ -85,14 +54,7 @@ print("Total number of aliens: " + str(len(aliens)))
     
 
 
-# In[ ]:
-
-
 #example 2
-
-
-# In[14]:
-
 
 # Make an empty list for storing aliens.
 aliens = []
@@ -574,12 +536,6 @@ def name():
     
 name()
 
-
-
-
-
-
-# In[75]:
 
 
 #using global word to meke a global varibale in the local scope
